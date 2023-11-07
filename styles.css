@@ -2,56 +2,151 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #3a3d55;
+.menu {
+    background-color: #517ca7;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu-list li {
+    margin: 0 15px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero {
+    background: url(./aseguradora1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 55px;
+}
+.sobre {
+    background-color: #f4f4f4;
     padding: 20px;
+    border: 1px solid #2d3e4e;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h1 {
-    text-align: center;
+.sobre-image {
+    height: auto;
+    width: 200px;
+    float: right;
+    border: 1px solid #2d3e4e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2 {
+    color: #6a86a3;
+}
+p {
+    color: #283b50;
+    font-size: larger;
+    font-style: oblique;
+}
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.formcontacto {
+    background-color: #517ca7;
+    padding: 20px;
+    border: 1px solid #2d3e4e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formcontacto h2 {
+    color: #ffffff;
+}
+.contactoo-form label {
     color: #333;
 }
-.form-group {
-    margin-bottom: 15px;
-}
-label {
-    display: block;
-    font-weight: bold;
-}
-input[type="text"],input[type="email"],input[type="tel"],
-select {
-    width: 90%;
-    padding: 5px;
-    border: 1px solid #ccc;
+.formcontacto input[type="text"],
+.formcontacto input[type="email"],
+.formcontacto input[type="tel"] {
+    width: 97.5%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #2d3e4e;
     border-radius: 5px;
-    font-size: 16px;
-    display: grid;
-    justify-self:center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
 }
-select {
-    appearance: none;
-}
-button {
+.formcontacto select {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    margin: 5px 0;
+    border: 1px solid #2d3e4e;
+    border-radius: 5px;
+}
+.formcontacto select {
+    background-color: #fff;
+}
+.formcontacto p {
+    color: #333;
+}
+.formcontacto button {
+    display: grid;
+    background-color: #2d3e4e;
     color: #fff;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: grid;
-    justify-self:center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-   
+    justify-content: center;
 }
-#valor-seguro {
-    font-weight: bold;
+.formcontacto button:hover {
+    background-color: #003f7f;
+}
+.footer {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+}
+.contenedorfooter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+.footer-section h3 {
+    font-size: 1.2rem;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section li {
+    margin-bottom: 8px;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+.finalfooter {
+    background-color: #003f7f;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.8rem;
 }
